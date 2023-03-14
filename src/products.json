@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "productName": "Sprinkled Doughnuts",
+        "price": 7000,
+        "productImage": "https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+        "description": "Doughnut topped with sprinkles",
+        "category": "Doughnuts"
+    },
+    {
+        "id": 2,
+        "productName": "Whipped Cream Pancake",
+        "price": 20000,
+        "productImage": "https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1378&q=80",
+        "description": "Pancake with whipped cream and strawberries",
+        "category": "Pancake"
+    },
+    {
+        "id": 3,
+        "productName": "Baked Yougurt Cupcake",
+        "price": 15000,
+        "productImage": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "description": "Baked strawberry cupcake",
+        "category": "Cupcake"
+    },
+    {
+        "id": 4,
+        "productName": "Oreo Choco IceCream",
+        "price": 25000,
+        "productImage": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+        "description": "Icecream with oreo crumbs and various of chocolates",
+        "category": "Ice Cream"
+    },
+    {
+        "id": 7,
+        "productName": "Brownie with IceCream",
+        "price": 20000,
+        "productImage": "https://www.oetker.in/Recipe/Recipes/oetker.in/in-en/dessert/image-thumb__147740__RecipeDetail/brownie-with-ice-cream@2x.webp",
+        "description": "Yummy brownie topped with ice cream",
+        "category": "Ice Cream"
+    },
+    {
+        "id": 8,
+        "productName": "Lemonade Cupcake",
+        "price": 15000,
+        "productImage": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+        "description": "lemon flavored cupcake topped with lemon sugar",
+        "category": "Cupcake"
+    }
+]

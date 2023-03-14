@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+#root {
+    margin: 0;
+    background-color: whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.counter-btn {
+    font-size: 12px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    z-index: 100;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.link-dropdown {
+    color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.icon-logo {
+    height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-logo {
+    height: 35px;
+}
+
+.cart-button {
+    border-style: none;
+}
+.main-container {
+    padding-top: 90px !important;
+}
+
+.card-product :hover {
+    box-shadow: 0 0.15rem 0.25rem rgb(0 0 0 / 12%);
+}
+
+.product-card-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-info {
+    max-height: 250px;
+}
+
+.card-info :hover {
+    box-shadow: none;
+}
+
+.card-button {
+    font-size: 13px !important;
+}
+
+.cart-title {
+    font-weight: bold !important;
+}
+
+.addtocart-product-btn {
+    max-width: 30%;
+}
+
+.cart-bg {
+    min-height: 100vh;
+}
+
+.cart-card {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.shortcart-card {
+    background-color: rgb(245, 240, 231);
+    border-radius: 5px;
+}
+
+.shortcart-title {
+    font-size: 16px;
+}
+
+.shortcart-img {
+    object-fit: cover;
+}
+
+.cart-img {
+    border-radius: 4px;
 }
