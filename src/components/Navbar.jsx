@@ -65,7 +65,7 @@ function NavbarMenu() {
         <div>
             <Navbar bg="light" expand="lg" className="shadow-sm">
                 <Container className="m-auto">
-                    <Link to="/">
+                    <Link to="/faud_desserts">
                         <Navbar.Brand>
                             <Image
                                 src={icon}
@@ -96,12 +96,18 @@ function NavbarMenu() {
                                     </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                    <Link to="/" className="link-dropdown">
+                                    <Link
+                                        to="/faud_desserts"
+                                        className="link-dropdown"
+                                    >
                                         About
                                     </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                    <Link to="/" className="link-dropdown">
+                                    <Link
+                                        to="/faud_desserts"
+                                        className="link-dropdown"
+                                    >
                                         Contact
                                     </Link>
                                 </NavDropdown.Item>
