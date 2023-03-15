@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/faud_desserts/static/css/main.d41ef6df.css",
+    "main.js": "/faud_desserts/static/js/main.2089fde7.js",
+    "static/js/787.de47a795.chunk.js": "/faud_desserts/static/js/787.de47a795.chunk.js",
+    "static/media/logo-1.png": "/faud_desserts/static/media/logo-1.9e1fd0fee349400e424e.png",
+    "static/media/logo-2.png": "/faud_desserts/static/media/logo-2.ba63d2fc821d053003bc.png",
+    "index.html": "/faud_desserts/index.html",
+    "main.d41ef6df.css.map": "/faud_desserts/static/css/main.d41ef6df.css.map",
+    "main.2089fde7.js.map": "/faud_desserts/static/js/main.2089fde7.js.map",
+    "787.de47a795.chunk.js.map": "/faud_desserts/static/js/787.de47a795.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d41ef6df.css",
+    "static/js/main.2089fde7.js"
+  ]
+}
