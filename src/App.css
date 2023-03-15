@@ -28,8 +28,8 @@
     height: 35px;
 }
 
-.cart-button {
-    border-style: none;
+.navbar-button:hover {
+    cursor: pointer;
 }
 .main-container {
     padding-top: 90px !important;
@@ -88,4 +88,10 @@
 
 .cart-img {
     border-radius: 4px;
+}
+
+.cart-total-container {
+    max-width: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 234, 214);
 }

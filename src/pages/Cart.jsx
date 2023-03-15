@@ -7,6 +7,7 @@ function Cart() {
     const dispatch = useDispatch();
     const [count, setCount] = useState(1);
     const [p_cart, setP_cart] = useState([]);
+    const [totalCart, setTotalCart] = useState(0);
     const { cart } = useSelector((state) => state.product);
 
     const incrementItems = (param) => {
@@ -53,7 +54,15 @@ function Cart() {
 
     useEffect(() => {
         setP_cart(cart);
+        // Calculate total cart value
+        const total = cart.reduce((accumulator, item) => {
+            const itemPrice = item.price || 0;
+            const itemQty = item.qty || 1;
+            return accumulator + itemPrice * itemQty;
+        }, 0);
+        setTotalCart(total);
     }, [cart]);
+
     return (
         <div className="cart-bg">
             <div className="text-center mt-4">
@@ -153,8 +162,8 @@ function Cart() {
                     </div>
                 ))
             )}
-            <div className="card-body d-flex justify-content-between align-items-center">
-                Your Cart Total is :
+            <div className="card-body d-flex cart-total-container mt-5 text-center">
+                <b>Your Cart Total is : Rp. {totalCart}</b>
             </div>
         </div>
     );
