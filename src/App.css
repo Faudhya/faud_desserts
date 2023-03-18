@@ -95,3 +95,7 @@
     border-radius: 10px;
     background-color: rgb(245, 234, 214);
 }
+
+.comingsoon-container {
+    min-height: 100vh;
+}

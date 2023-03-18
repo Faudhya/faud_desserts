@@ -117,6 +117,14 @@ function NavbarMenu() {
                                         Admin
                                     </Link>
                                 </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    <Link
+                                        to="/comingsoon"
+                                        className="link-dropdown"
+                                    >
+                                        Coming Soon!
+                                    </Link>
+                                </NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                         <span className="ml-auto mr-3 navbar-button">
