@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/faud_desserts/static/css/main.47f79855.css",
-    "main.js": "/faud_desserts/static/js/main.839f3865.js",
+    "main.css": "/faud_desserts/static/css/main.f157f895.css",
+    "main.js": "/faud_desserts/static/js/main.de836c7d.js",
     "static/js/787.de47a795.chunk.js": "/faud_desserts/static/js/787.de47a795.chunk.js",
     "static/media/logo-1.png": "/faud_desserts/static/media/logo-1.9e1fd0fee349400e424e.png",
     "static/media/logo-2.png": "/faud_desserts/static/media/logo-2.ba63d2fc821d053003bc.png",
     "index.html": "/faud_desserts/index.html",
-    "main.47f79855.css.map": "/faud_desserts/static/css/main.47f79855.css.map",
-    "main.839f3865.js.map": "/faud_desserts/static/js/main.839f3865.js.map",
+    "main.f157f895.css.map": "/faud_desserts/static/css/main.f157f895.css.map",
+    "main.de836c7d.js.map": "/faud_desserts/static/js/main.de836c7d.js.map",
     "787.de47a795.chunk.js.map": "/faud_desserts/static/js/787.de47a795.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47f79855.css",
-    "static/js/main.839f3865.js"
+    "static/css/main.f157f895.css",
+    "static/js/main.de836c7d.js"
   ]
 }
