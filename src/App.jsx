@@ -5,6 +5,8 @@ import NavbarMenu from "./components/Navbar";
 import Cart from "./pages/Cart";
 import AddProduct from "./pages/Admin";
 import ComingSoon from "./pages/ComingSoon";
+import LoginForm from "./pages/LoginForm";
+import RegisterForm from "./pages/RegisterForm";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
                     <Route path="/cart" element={<Cart />}></Route>
                     <Route path="/admin" element={<AddProduct />}></Route>
                     <Route path="/comingsoon" element={<ComingSoon />}></Route>
+                    <Route path="/login" element={<LoginForm />}></Route>
+                    <Route path="/register" element={<RegisterForm />}></Route>
                 </Routes>
             </div>
         </>

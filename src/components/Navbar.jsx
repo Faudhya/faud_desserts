@@ -126,6 +126,16 @@ function NavbarMenu() {
                                     </Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
+                            <Nav.Link>
+                                <Link to="/login" className="link-dropdown">
+                                    Login
+                                </Link>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <Link to="/register" className="link-dropdown">
+                                    Register
+                                </Link>
+                            </Nav.Link>
                         </Nav>
                         <span className="ml-auto mr-3 navbar-button">
                             <svg

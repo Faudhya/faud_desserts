@@ -1,26 +1,11 @@
 import { Card, Button, Col } from "react-bootstrap";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import Productlist from "../products.json";
 import { useDispatch } from "react-redux/es/exports";
 import { update } from "../features/productSlice";
-import axios from "axios";
-// import React, { useState } from "react";
 
 function Products() {
-    const [products, setProducts] = useState([]);
     const dispatch = useDispatch();
-    // const [count, setCount] = useState(1);
-
-    const getList = async () => {
-        try {
-            let data = await axios.get("http://localhost:2000/products");
-            setProducts(data.data);
-        } catch (error) {}
-    };
-
-    useEffect(() => {
-        getList();
-    }, []);
 
     const updateCart = (param) => {
         // setCount((previousCount) => previousCount++);

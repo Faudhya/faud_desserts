@@ -96,6 +96,13 @@
     background-color: rgb(245, 234, 214);
 }
 
-.comingsoon-container {
+.comingsoon-container,
+.login-container,
+.register-container {
     min-height: 100vh;
+}
+
+.form-container {
+    max-width: 500px;
+    background-color: rgb(249, 248, 248);
 }

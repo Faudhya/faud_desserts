@@ -1,6 +1,5 @@
 import { Card, Button, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import Productlist from "../products.json";
 import { useDispatch } from "react-redux/es/exports";
 import { update } from "../features/productSlice";
 import axios from "axios";
